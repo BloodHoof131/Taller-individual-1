@@ -1,16 +1,5 @@
 import math
 
-r = float(input("Ingrese el radio: "))
-
-area = math.pi * r ** 2
-longitud = 2 * math.pi * r
-
-print("Área del círculo:", area)
-print("Longitud de la circunferencia:", longitud)
-
-
-import math
-
 class Circulo:
     def __init__(self, radio):
         self.radio = radio
